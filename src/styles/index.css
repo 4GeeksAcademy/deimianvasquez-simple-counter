@@ -9,3 +9,23 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.counter{
+    background-color: black;
+}
+.counter__numbers{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 15px;
+}
+.counter__numbers>div{
+    border: 1px solid rgb(19, 18, 18);
+    border-radius:10px;
+    padding: 20px;
+    font-size: 3rem;
+    font-weight: bold;
+    background-color: #101010;
+    line-height: 60px;
+}
